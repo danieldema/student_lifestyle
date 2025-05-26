@@ -67,22 +67,16 @@ Lifestyle Data → Feature Engineering → Model Training → Hyperparameter Tun
 - **Optimization**: GridSearchCV for optimal tree depth
 - **Best Parameters**: max_depth = 3
 - **Performance**: R² = 0.51, MSE = 0.26
-- **Interpretability**: Clear decision rules for grade prediction
-- **Overfitting Prevention**: Pruning through depth limitation
 
 ### Random Forest Implementation (student_lifestyle_randomforest.ipynb)
 - **Ensemble Method**: Multiple decision trees with aggregation
 - **Configuration**: max_depth = 3 for consistency
 - **Performance**: R² = 0.51, MSE = 0.25
-- **Robustness**: Reduced variance through ensemble averaging
-- **Feature Importance**: Comprehensive ranking of lifestyle factors
 
 ### K-Nearest Neighbors Modeling (student_lifestyle_knn.ipynb)
 - **Optimization**: GridSearchCV for neighbor count
 - **Best Parameters**: n_neighbors = 28
 - **Performance**: R² = 0.50, MSE = 0.26
-- **Non-parametric Approach**: Instance-based learning
-- **Local Patterns**: Similarity-based predictions
 
 ## Key Findings & Insights
 
@@ -114,20 +108,6 @@ Lifestyle Data → Feature Engineering → Model Training → Hyperparameter Tun
 ├── student_lifestyle_knn.ipynb          # K-nearest neighbors approach
 └── README.md                            # Project documentation
 ```
-
-## Business & Educational Implications
-
-### Academic Counseling Insights
-- **Study Optimization**: Evidence-based study hour recommendations
-- **Lifestyle Balance**: Holistic approach to student well-being
-- **Stress Management**: Targeted interventions for high-stress students
-- **Performance Prediction**: Early warning systems for academic risk
-
-### Policy Recommendations
-- **Sleep Education**: Importance of adequate rest for academic success
-- **Activity Programming**: Balanced extracurricular and physical activity
-- **Support Systems**: Stress reduction and mental health resources
-- **Personalized Approaches**: Individual lifestyle optimization strategies
 
 ## Technical Skills Demonstrated
 
