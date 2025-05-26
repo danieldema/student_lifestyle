@@ -105,21 +105,6 @@ Lifestyle Data → Feature Engineering → Model Training → Hyperparameter Tun
 - **Multicollinearity**: Potential interactions between lifestyle factors
 - **Generalizability**: Model consistency indicates robust patterns
 
-## Technical Methodology
-
-### Model Development Process
-1. **Exploratory Data Analysis**: Initial pattern identification
-2. **Feature Engineering**: Variable transformation and selection
-3. **Model Implementation**: Algorithm-specific development
-4. **Hyperparameter Tuning**: GridSearchCV optimization
-5. **Performance Evaluation**: Comprehensive metric analysis
-6. **Cross-Validation**: Robust performance estimation
-
-### Evaluation Metrics
-- **R-squared Score**: Explained variance measurement
-- **Mean Squared Error**: Prediction accuracy assessment
-- **Cross-Validation**: Generalization capability testing
-
 ## Project Structure
 
 ```
