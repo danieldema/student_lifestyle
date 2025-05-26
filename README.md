@@ -21,7 +21,7 @@ Lifestyle Data → Feature Engineering → Model Training → Hyperparameter Tun
 ## Technology Stack
 
 **Machine Learning & Data Science:**
-- Python (scikit-learn, pandas, numpy)
+- Python (scikit-learn, pandas, NumPy)
 - Linear Regression, Decision Trees, Random Forest, K-Nearest Neighbors
 - GridSearchCV for hyperparameter optimization
 
