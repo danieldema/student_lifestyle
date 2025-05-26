@@ -6,12 +6,6 @@ A comprehensive machine learning study examining the relationship between studen
 
 This project investigates how various lifestyle factors impact student academic performance through predictive modeling. By analyzing sleep patterns, study habits, social activities, and stress levels, the study provides insights into optimal lifestyle choices for academic success. The project implements and compares four different machine learning approaches to understand the underlying relationships between lifestyle and grades.
 
-### Key Achievements
-- **Multi-Algorithm Comparison** - Comprehensive evaluation of 4 regression models
-- **Hyperparameter Optimization** - GridSearchCV implementation for optimal performance
-- **Feature Importance Analysis** - Identification of key lifestyle predictors
-- **Statistical Insights** - Linear relationship discovery through model comparison
-
 ## Architecture
 
 ```
@@ -108,28 +102,6 @@ Lifestyle Data → Feature Engineering → Model Training → Hyperparameter Tun
 ├── student_lifestyle_knn.ipynb          # K-nearest neighbors approach
 └── README.md                            # Project documentation
 ```
-
-## Technical Skills Demonstrated
-
-- **Machine Learning**: Multi-algorithm implementation and comparison
-- **Hyperparameter Optimization**: GridSearchCV and model tuning
-- **Statistical Analysis**: Performance evaluation and interpretation
-- **Python Programming**: Advanced scikit-learn library usage
-- **Model Evaluation**: Comprehensive performance assessment
-
-## Research Limitations & Considerations
-
-### Data Constraints
-- **Feature Limitation**: Current variables explain ~52% of variance
-- **Sample Representation**: Dataset scope and generalizability
-- **Causality**: Correlation vs. causal relationships
-
-### Model Considerations
-- **Linear Assumptions**: Predominant linear relationships observed
-- **Complexity Trade-offs**: Simple vs. complex model performance
-- **Overfitting Risk**: Model generalization capabilities
-- **Feature Interactions**: Potential unmeasured variable effects
-
 ---
 
 **Contact**: [https://www.linkedin.com/in/danieldema/] | [danieldema42@gmail.com]
