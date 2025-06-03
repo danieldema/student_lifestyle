@@ -1,6 +1,6 @@
 # Student Lifestyle & Academic Performance Analysis
 
-A comprehensive machine learning study examining the relationship between student lifestyle factors and academic performance, featuring comparative analysis across four regression algorithms with hyperparameter optimization.
+A machine learning investigation into how lifestyle factors influence student academic success, featuring a comparative study of four regression models enhanced with hyperparameter tuning.
 
 ## Project Overview
 
