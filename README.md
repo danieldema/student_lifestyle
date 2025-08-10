@@ -15,12 +15,12 @@ This project investigates how various lifestyle factors impact student academic 
 
 ## Model Performance Comparison
 
-| Model | R-squared Score | MSE | Optimal Parameters | Key Insights |
-|-------|----------------|-----|-------------------|--------------|
-| **Linear Regression** | **0.52** | **0.25** | N/A | Baseline linear relationship |
-| Decision Tree | 0.51 | 0.26 | max_depth=3 | Non-linear pattern detection |
-| Random Forest | 0.51 | 0.25 | max_depth=3 | Ensemble robustness |
-| K-Nearest Neighbors | 0.50 | 0.26 | n_neighbors=28 | Local pattern recognition |
+| Model | R-squared Score | MSE | Optimal Parameters | 
+|-------|----------------|-----|-------------------|
+| **Linear Regression** | **0.52** | **0.25** | N/A |
+| Decision Tree | 0.51 | 0.26 | max_depth=3 |
+| Random Forest | 0.51 | 0.25 | max_depth=3 |
+| K-Nearest Neighbors | 0.50 | 0.26 | n_neighbors=28 |
 
 ### Linear Regression Analysis (student_lifestyle_linreg.ipynb)
 - **Model Type**: Ordinary Least Squares regression
