@@ -1,44 +1,17 @@
 # Student Lifestyle & Academic Performance Analysis
 
-A machine learning investigation into how lifestyle factors influence student academic success, featuring a comparative study of four regression models enhanced with hyperparameter tuning.
+A machine learning investigation into how lifestyle factors influence student academic success, featuring a comparative study of four different regression models.
 
 ## Project Overview
 
 This project investigates how various lifestyle factors impact student academic performance through predictive modeling. By analyzing sleep patterns, study habits, social activities, and stress levels, the study provides insights into optimal lifestyle choices for academic success. The project implements and compares four different machine learning approaches to understand the underlying relationships between lifestyle and grades.
 
-## Architecture
-
-```
-Lifestyle Data → Feature Engineering → Model Training → Hyperparameter Tuning → Performance Comparison → Insights
-```
-
-## Technology Stack
+## Tech Stack
 
 **Machine Learning & Data Science:**
 - Python (scikit-learn, pandas, NumPy)
 - Linear Regression, Decision Trees, Random Forest, K-Nearest Neighbors
 - GridSearchCV for hyperparameter optimization
-
-**Data Analysis:**
-- Statistical analysis and correlation studies
-- Feature importance evaluation
-- Model performance metrics (R-squared, MSE)
-
-## Dataset Overview
-
-**Data Source**: [Student Lifestyle Factors Dataset](https://www.kaggle.com/datasets/charlottebennett1234/lifestyle-factors-and-their-impact-on-students)
-
-**Target Variable:**
-- Student grades (continuous)
-
-**Predictor Variables:**
-- Study hours per day
-- Extracurricular hours per day
-- Sleep hours per day
-- Social hours per day
-- Physical activity hours per day
-- Stress level
-- Gender
 
 ## Model Performance Comparison
 
@@ -48,8 +21,6 @@ Lifestyle Data → Feature Engineering → Model Training → Hyperparameter Tun
 | Decision Tree | 0.51 | 0.26 | max_depth=3 | Non-linear pattern detection |
 | Random Forest | 0.51 | 0.25 | max_depth=3 | Ensemble robustness |
 | K-Nearest Neighbors | 0.50 | 0.26 | n_neighbors=28 | Local pattern recognition |
-
-## Technical Implementation
 
 ### Linear Regression Analysis (student_lifestyle_linreg.ipynb)
 - **Model Type**: Ordinary Least Squares regression
@@ -87,12 +58,6 @@ Lifestyle Data → Feature Engineering → Model Training → Hyperparameter Tun
 - **Work-Life Balance**: Optimal distribution of time across activities
 - **Physical Activity**: Positive correlation with cognitive performance
 
-### Statistical Implications
-- **Linear Relationships**: Predominant linear associations between predictors and grades
-- **Data Limitations**: Performance plateau suggests additional features needed
-- **Multicollinearity**: Potential interactions between lifestyle factors
-- **Generalizability**: Model consistency indicates robust patterns
-
 ## Project Structure
 
 ```
@@ -102,10 +67,3 @@ Lifestyle Data → Feature Engineering → Model Training → Hyperparameter Tun
 ├── student_lifestyle_knn.ipynb          # K-nearest neighbors approach
 └── README.md                            # Project documentation
 ```
----
-
-**Contact**: [https://www.linkedin.com/in/danieldema/] | [danieldema42@gmail.com]
-
-**Repository**: [https://github.com/danieldema/student_lifestyle]
-
-**Data Source**: [Student Lifestyle Factors Dataset](https://www.kaggle.com/datasets/charlottebennett1234/lifestyle-factors-and-their-impact-on-students)
